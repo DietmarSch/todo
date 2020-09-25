@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+ul> :nth-child(2n+1){
+    background-color: burlywood;
+}
+
+ul li button{
+    background-color: bisque;
+}
+
+.done .doneBtn{
+    background-color: burlywood;
+}
+
+li button{
+    height:1cm;
+    margin:0.2cm;
+}
+
+.done{
+    text-decoration: line-through;
+    color:lightslategrey;
+    font-weight: 400;
+}
